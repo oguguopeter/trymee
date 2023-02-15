@@ -45,9 +45,11 @@ main{
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 400px;
+    height: 500px;
     background-image: url(pexels.jpg);
     text-align: center;
+    background-size: cover;
+    
 }
 
 main h1{
@@ -58,4 +60,43 @@ main h1{
 main p{
     padding-right: 60px;
     padding-left: 60px;
+}
+
+section{
+    width: 100%auto;
+    height: 80px;
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 50px;
+    overflow: hidden;
+
+}
+
+section p{
+
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+section input{
+
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+}
+
+section button{
+
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    background-color: orangered;
+    margin-left: 1px;
+    width: 100px;
+
 }
