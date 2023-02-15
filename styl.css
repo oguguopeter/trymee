@@ -100,3 +100,35 @@ section button{
     width: 100px;
 
 }
+
+aside{
+    height: 300px;
+    width: auto;
+    display: flex;
+    align-items:center;
+    background-color: whitesmoke;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+
+}
+
+aside img{
+    height: 100px;
+    width: 100px;
+
+
+}
+aside .card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+aside .card p{
+    margin: 20px;
+    text-align: center;
+}
