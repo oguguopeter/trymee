@@ -26,20 +26,6 @@ span{
 
 
 
-/* .links a{
-    text-decoration: none;
-    padding-left: 50px;
-    color: white;
-}
-
-.links a:active{
-    color: orangered;
-}
-
-.links a:hover{
-    color: orangered;
-} */
-
 .links a{
     text-decoration: none;
     padding-left: 50px;
@@ -50,4 +36,26 @@ span{
 }
 .links a:active{
     color: orangered;
+}
+
+
+main{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+    background-image: url(pexels.jpg);
+    text-align: center;
+}
+
+main h1{
+    margin-bottom: 20px;
+    font-size: 60px;
+}
+
+main p{
+    padding-right: 60px;
+    padding-left: 60px;
 }
